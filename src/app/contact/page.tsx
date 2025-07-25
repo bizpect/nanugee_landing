@@ -1,8 +1,9 @@
 'use client';
 import React, { useState } from "react";
-import { supabase } from '@/utils/supabaseClient';
+import { getSupabase } from '@/utils/supabaseClient';
 
 export default function ContactPage() {
+  const supabase = getSupabase();
   const [form, setForm] = useState({ title: '', email: '', content: '' });
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
