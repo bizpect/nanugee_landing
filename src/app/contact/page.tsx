@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { getSupabase } from '@/utils/supabaseClient';
 
 export default function ContactPage() {
-  const supabase = getSupabase();
   const [form, setForm] = useState({ title: '', email: '', content: '' });
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -19,6 +18,7 @@ export default function ContactPage() {
     setLoading(true);
     setError('');
     setSuccess(false);
+    const supabase = getSupabase(); // 여기서만 생성
     const { error } = await supabase.from('questions').insert([form]);
     setLoading(false);
     if (error) setError('문의 접수에 실패했습니다. 다시 시도해 주세요.');
