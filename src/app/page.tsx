@@ -259,6 +259,24 @@ export default function Home() {
             <div className="w-full flex justify-center mt-6 md:mt-12">
               <p className="text-xs text-white text-center">받아야 할 금액이 있다면 해당 멤버들에게 푸쉬 알림이 전송됩니다.</p>
             </div>
+    </div>
+        </section>
+
+        {/* 페이지 맨 아래에 고객센터 섹션 추가 */}
+        <section id="support" className="w-full py-16 bg-black mt-0">
+          <div className="max-w-2xl mx-auto flex flex-col gap-6 px-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">고객센터</h2>
+            <div className="text-white font-bold flex flex-col gap-2">
+              <div>
+                이메일 문의: <a href="mailto:bizpect@gmail.com" className="underline">bizpect@gmail.com</a>
+              </div>
+              <div>
+                운영시간: 평일 10:00 ~ 18:00 (점심 12:00~13:00)
+              </div>
+              <div>
+                자주 묻는 질문: <a href="/faq" className="underline">FAQ 바로가기</a>
+              </div>
+            </div>
           </div>
         </section>
     </main>
