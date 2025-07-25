@@ -32,7 +32,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-white flex flex-col items-center justify-start py-20 px-4">
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-blue-600">문의하기</h1>
       <p className="mb-6 text-gray-700">궁금한 점이나 불편한 점이 있으시면 언제든 문의해 주세요.</p>
-      <form className="w-full max-w-md bg-gray-50 rounded-xl shadow p-6 flex flex-col gap-4" onSubmit={handleSubmit}>
+      <form className="w-full max-w-md rounded-xl shadow p-6 flex flex-col gap-4" onSubmit={handleSubmit}>
         <label className="text-sm font-semibold text-gray-700">제목
           <input type="text" name="title" value={form.title} onChange={handleChange} className="mt-1 w-full border border-gray-300 rounded px-3 py-2" placeholder="제목을 입력하세요" required />
         </label>

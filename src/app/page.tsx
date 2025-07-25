@@ -13,8 +13,8 @@ export default function Home() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-blue-600">
-          더치페이, 정산까지 한 번에 나누지! <br />
-          모임비 정산, 더 이상 미루지 마세요!
+          <div className="mb-4">모임비 정산</div>
+          <div>더 이상 미루지 마세요!</div>
         </h1>
         <p className="text-lg mb-12 text-gray-600">
           나누지는 모임의 영수증 등록부터<br />
@@ -109,7 +109,7 @@ export default function Home() {
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-10 text-center">모임 생성</h1>
             <div className="flex flex-row items-center justify-between px-12 md:px-32">
               <div className="w-1/2 text-white pr-4 md:pr-12 text-left flex flex-col justify-center">
-                <p className="text-2xl md:text-3xl font-bold mb-6">나누지 첫 시작!</p>
+                <p className="text-2xl md:text-3xl font-bold mb-6">나누지<br/>첫 시작!</p>
                 <ul className="text-lg mb-6 list-disc list-inside opacity-90">
                   <li>모임명 (목적)</li>
                   <li>모임 인원 수</li>
@@ -149,14 +149,14 @@ export default function Home() {
             </div>
             {/* 공제인원 추가: 왼쪽 텍스트, 오른쪽 사진 */}
             <div className="flex flex-row items-center justify-between px-12 md:px-32 gap-[60px] mt-12">
-              <div className="w-1/2 flex flex-col justify-center items-start text-left">
-                <p className="text-lg font-semibold mb-2">영수증 등록에 이어서<br/>공제인원 추가하세요.</p>
-                <ul className="text-sm mb-4 list-disc list-inside opacity-90">
+              <div className="w-1/2 flex flex-col justify-center pl-4 md:pl-12">
+                <p className="text-lg font-semibold mb-2 text-black">영수증 등록에 이어서<br/>공제인원 추가하세요.</p>
+                <ul className="text-sm mb-4 list-disc list-inside opacity-90 text-black">
                   <li>공제인원 선택</li>
                   <li>공제금액</li>
                   <li>공제사유</li>
                 </ul>
-                <p className="text-base font-medium">모두 입력 후 저장 완료!</p>
+                <p className="text-base font-medium text-black">모두 입력 후 저장 완료!</p>
               </div>
               <div className="w-1/2 flex justify-center items-center">
                 <img src="/images/gongje_member.jpg" alt="공제인원 추가 미리보기" className="w-96 h-96 object-contain" />
