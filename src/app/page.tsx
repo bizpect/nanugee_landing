@@ -276,6 +276,9 @@ export default function Home() {
               <div>
                 자주 묻는 질문: <a href="/faq" className="underline">FAQ 바로가기</a>
               </div>
+              <div>
+                개인정보처리방침: <a href="/privacy" className="underline">개인정보처리방침 바로가기</a>
+              </div>
             </div>
           </div>
         </section>
