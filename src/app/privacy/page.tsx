@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         
         <div className="bg-gray-50 rounded-xl shadow p-8 text-sm leading-relaxed">
           <p className="mb-6">
-            BIZPECT(이하 '회사'라 한다)는 개인정보 보호법 제30조에 따라 정보 주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립, 공개합니다.
+            BIZPECT(이하 &apos;회사&apos;라 한다)는 개인정보 보호법 제30조에 따라 정보 주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립, 공개합니다.
           </p>
 
           <h2 className="text-xl font-bold mb-4 text-black">제1조 (개인정보의 처리목적)</h2>
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
 
           <h2 className="text-xl font-bold mb-4 text-black">제8조(개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항)</h2>
           <p className="mb-4">
-            ① 회사는 이용자에게 개별적인 맞춤 서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 '쿠키(cookie)'를 사용합니다.<br/>
+            ① 회사는 이용자에게 개별적인 맞춤 서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 &apos;쿠키(cookie)&apos;를 사용합니다.<br/>
             ② 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에 보내는 소량의 정보이며 이용자들의 PC 또는 모바일에 저장됩니다.<br/>
             ③ 정보주체는 웹 브라우저 옵션 설정을 통해 쿠키 허용, 차단 등의 설정을 할 수 있습니다. 다만, 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.
           </p>
