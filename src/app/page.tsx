@@ -31,7 +31,9 @@ export default function Home() {
             Google Play에서 다운로드
           </a>
           <a
-            href="#"
+            href="https://apps.apple.com/app/nanugee/id6748914077"
+            target="_blank"
+            rel="noopener noreferrer"
             className="min-w-[180px] max-w-xs w-full sm:w-auto px-6 py-3 bg-black text-white rounded-full font-semibold shadow hover:bg-gray-800 transition text-base text-center"
           >
             App Store에서 다운로드
