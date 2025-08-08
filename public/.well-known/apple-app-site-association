@@ -1,0 +1,9 @@
+{
+    "applinks":{
+        "apps": [],
+        "details": [{
+            "appID": "LG6DSTYY5C.com.bizpect.nanugee",
+            "paths": ["/callback/*"]
+        }]
+    }
+}
